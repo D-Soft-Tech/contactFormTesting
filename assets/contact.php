@@ -8,7 +8,7 @@ function isEmail($email) {
 if(isset($_POST['submit'])) {
 
     // Enter the email where you want to receive the message
-    $emailTo = 'oloyedeadebayoolawale@ymail.com';
+    $emailTo = 'oloyedeadebayoolawale@gmail.com';
 
     $name = addslashes(trim($_POST['name']));
     $clientEmail = addslashes(trim($_POST['email']));
